@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Subject } from 'rxjs';
 
 @Component({
-  selector: 'app-play-test',
+  selector: 'app-ddm-test',
   templateUrl: './play-test.component.html',
   styleUrls: ['./play-test.component.scss']
 })
