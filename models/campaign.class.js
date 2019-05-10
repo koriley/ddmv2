@@ -1,1 +1,0 @@
-console.log("campaign.class")
