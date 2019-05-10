@@ -1,0 +1,15 @@
+.mainContainer {
+  background-color:red;
+  height:100%;
+
+  .playArea{
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    left:100px;
+    right:0px;
+    overflow:hidden;
+    border:1px solid orange;
+
+}
+}

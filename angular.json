@@ -27,9 +27,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/jquery-ui/themes/base/all.css"
             ],
-            "scripts": [],
+            "scripts": [
+
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {

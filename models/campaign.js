@@ -1,5 +1,5 @@
 
-let IO = require("./io")
+let IO = require("./io");
 
 
 module.exports = {
@@ -17,11 +17,11 @@ module.exports = {
                             resolve(campaignObj);
                         });
                     }else{
-                        reject(new Error +""+ data)
+                        reject(new Error(data));
                     }
                 });
             } catch (error) {
-                reject(error);
+                reject(new Error(error));
             }
         })
     }
