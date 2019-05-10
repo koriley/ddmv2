@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { VisabilityService } from '../../services/visability.service';
+import { ApiCallsService } from '../../services/api-calls.service';
 declare var jQuery: any;
 @Component({
   selector: 'app-main-nav',
@@ -7,7 +8,7 @@ declare var jQuery: any;
   styleUrls: ['./main-nav.component.scss']
 })
 export class MainNavComponent implements OnInit {
-  constructor(private Visability: VisabilityService) {}
+  constructor(private Visability: VisabilityService, private api: ApiCallsService) {}
   mySwitch = 0;
  bookVisNum = this.Visability.bookComponentVisNum;
 
